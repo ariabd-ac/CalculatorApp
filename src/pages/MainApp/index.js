@@ -177,7 +177,6 @@ const Container = styled.div`
   box-sizing: border-box;
   position: relative;
   height: 100vh;
-  /* box-sizing: border-box; */
   box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.25);
 `;
 
@@ -192,30 +191,25 @@ const Header = styled.div`
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding-left: 50px;
   padding-right: 50px;
   height: 50vh;
   margin-top: 1vh;
-  /* align-items: center; */
 `;
 
 const WraperInput = styled.div`
   display: flex;
   flex-direction: column;
-  /* background-color: green; */
   align-items: center;
   height: 30vh;
 `;
 
 const InputGroup = styled.div`
-  /* background-color: saddlebrown; */
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
   width: 100%;
   align-items: center;
-  /* flex: 1; */
 `;
 
 const InputNumber = styled.input`
@@ -226,7 +220,6 @@ const InputNumber = styled.input`
   height: 43px;
   padding-left: 21px;
   padding-right: 21px;
-
   outline: none;
 
   &:focus {
@@ -239,13 +232,11 @@ const WrapperAction = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* background-color: orange; */
   width: 100%;
   height: 10vh;
 `;
 
 const Action = styled.div`
-  /* padding: 10px 10px 10px 10px; */
   height: 60px;
   width: 60px;
   display: flex;
@@ -268,7 +259,6 @@ const Oprator = styled.input`
   width: 25px;
   cursor: pointer;
   &:checked ~ label {
-    /* background-color: lightseagreen; */
     border: 0px solid lightseagreen;
     color: white;
     border-radius: 10px;
@@ -283,7 +273,6 @@ const Footer = styled.div`
 
 const Hasil = styled.div`
   display: flex;
-  /* background-color: red; */
   align-items: center;
   margin-top: 2vh;
 
